@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amorchito Pechocho 💕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-bg"></div>
+
+    <div class="container">
+        <h1>Amorchito pechocho, quieres ser mi cita en San Valentin? 💕</h1>
+
+        <div class="photo-container">
+            <img id="couple-photo" src="photos/foto1.jpg" alt="Nosotros">
+        </div>
+
+        <div class="gif-container">
+            <img id="cat-gif" src="https://media1.tenor.com/m/_x26F5nuswMAAAAC/open-season-boog.gif" alt="Boog y Elliot">
+        </div>
+
+        <div class="buttons">
+            <button id="yes-btn" onclick="handleYesClick()">Si</button>
+            <button id="no-btn" onclick="handleNoClick()">No</button>
+        </div>
+        <div id="tease-toast"></div>
+    </div>
+
+    <audio id="bg-music" loop autoplay muted>
+        <source src="music/song.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
